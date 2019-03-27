@@ -105,6 +105,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   padding: 20px;
+  color: #e2e2ed;
 } 
 
 ul, ol {
@@ -154,6 +155,7 @@ header, footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -227,6 +229,49 @@ footer .copyright {
   margin: 20px 0;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+aside {
+  background-color: #527158;
+}
+.reviews {
+  background-color: #2a423a;
+}
+
+
+.faq-info {
+  background-color: #527158;
+}
+
+.mission {
+  background-color: #527158;
+}
+
+.contact-section {
+  background-color: #2a423a;
+}
 /*---------------Mobile Styles - Homepage --------------*/
 .content-wrapper {
   width: 100%;
